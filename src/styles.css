@@ -39,3 +39,9 @@ a {
     font-size: 3rem;
 }
 
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color:turquoise;
+}
