@@ -1,3 +1,13 @@
-<header class="text-secondary banner d-block d-md-flex justify-content-center text-center pt-3 pb-5">    
-    <h2>NUESTROS PRODUCTOS</h2>
+<header class="row text-secondary banner d-block d-md-flex justify-content-center text-center pt-3 pb-5">    
+    <div class="col-12">
+        <h2>NUESTROS PRODUCTOS</h2>
+    </div>
+    <div class="col-4">
+        <input  type="text" 
+                class="form-control mb-2" 
+                placeholder="Cual es tu comida favorita?"
+                [(ngModel)] = "comidaFavorita"        
+        >
+        <h3>{{comidaFavorita}}</h3>
+    </div>
 </header>
